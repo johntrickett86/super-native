@@ -22,10 +22,8 @@ Swap active demos by uncommenting routes in `routes/web.php`.
 
 ## Requirements
 
-- PHP 8.2+
 - Composer
 - Android Studio (with an emulator or connected device)
-- Node.js & npm
 
 ## Getting Started
 
