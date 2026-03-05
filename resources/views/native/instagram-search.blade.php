@@ -1,5 +1,5 @@
-<native:scroll-view class="w-full h-full bg-white">
-    <native:column class="w-full gap-0 safe-area">
+<native:scroll-view class="w-full h-full bg-white safe-area">
+    <native:column class="w-full gap-0 ">
 
         {{-- Search Bar --}}
         <native:column class="w-full px-4 pt-3 pb-2">

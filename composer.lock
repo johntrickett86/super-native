@@ -2616,12 +2616,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/mobile-air.git",
-                "reference": "696260fcba7bf839caf608b0eee6a055d4326a46"
+                "reference": "6637162ca6bd25d82d581c6b95236951e2371261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/mobile-air/zipball/696260fcba7bf839caf608b0eee6a055d4326a46",
-                "reference": "696260fcba7bf839caf608b0eee6a055d4326a46",
+                "url": "https://api.github.com/repos/NativePHP/mobile-air/zipball/6637162ca6bd25d82d581c6b95236951e2371261",
+                "reference": "6637162ca6bd25d82d581c6b95236951e2371261",
                 "shasum": ""
             },
             "require": {
@@ -2691,7 +2691,7 @@
                 "issues": "https://github.com/NativePHP/mobile-air/issues",
                 "source": "https://github.com/NativePHP/mobile-air/tree/element"
             },
-            "time": "2026-03-03T14:40:54+00:00"
+            "time": "2026-03-05T21:55:46+00:00"
         },
         {
             "name": "nativephp/mobile-dialog",
@@ -7977,16 +7977,16 @@
         },
         {
             "name": "laravel/roster",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/roster.git",
-                "reference": "56904a78f4d7360c1c490ced7deeebf9aecb8c0e"
+                "reference": "5089de7615f72f78e831590ff9d0435fed0102bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/roster/zipball/56904a78f4d7360c1c490ced7deeebf9aecb8c0e",
-                "reference": "56904a78f4d7360c1c490ced7deeebf9aecb8c0e",
+                "url": "https://api.github.com/repos/laravel/roster/zipball/5089de7615f72f78e831590ff9d0435fed0102bb",
+                "reference": "5089de7615f72f78e831590ff9d0435fed0102bb",
                 "shasum": ""
             },
             "require": {
@@ -8034,7 +8034,7 @@
                 "issues": "https://github.com/laravel/roster/issues",
                 "source": "https://github.com/laravel/roster"
             },
-            "time": "2026-02-17T17:33:35+00:00"
+            "time": "2026-03-05T07:58:43+00:00"
         },
         {
             "name": "laravel/sail",

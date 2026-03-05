@@ -1,5 +1,7 @@
- <native:scroll-view class="w-full h-full bg-gray-50">
-    <native:column class="w-full gap-0 safe-area">
+@include('native.partials.demo-nav', ['title' => 'IKEA'])
+
+<native:scroll-view class="w-full h-full bg-gray-50">
+    <native:column class="w-full gap-0 ">
 
         {{-- Top Bar --}}
         <native:column class="w-full bg-[#003399] px-4 pt-3 pb-3">

@@ -1,5 +1,7 @@
+@include('native.partials.demo-nav', ['title' => 'Facebook'])
+
 <native:scroll-view class="w-full h-full bg-[#F0F2F5]">
-    <native:column class="w-full gap-0 safe-area">
+    <native:column class="w-full gap-0 ">
 
         {{-- Top Bar --}}
         <native:row class="w-full bg-white px-4 py-3 items-center justify-between">

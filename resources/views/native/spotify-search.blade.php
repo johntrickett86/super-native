@@ -1,5 +1,5 @@
-<native:scroll-view class="w-full h-full bg-[#121212]">
-    <native:column class="w-full gap-0 safe-area">
+<native:scroll-view class="w-full h-full bg-[#121212] safe-area">
+    <native:column class="w-full gap-0 ">
 
         {{-- Top Bar --}}
         <native:row class="w-full px-4 pt-4 pb-2 items-center">

@@ -1,5 +1,7 @@
+@include('native.partials.demo-nav', ['title' => 'AirBNB'])
+
 <native:scroll-view class="w-full h-full bg-white">
-    <native:column class="w-full gap-0 safe-area">
+    <native:column class="w-full gap-0 ">
 
         {{-- Search Bar --}}
         <native:column class="w-full px-5 pt-3 pb-2">

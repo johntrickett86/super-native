@@ -1,5 +1,5 @@
-<native:scroll-view class="w-full h-full bg-[#0F0F0F]">
-    <native:column class="w-full gap-0 safe-area">
+<native:scroll-view class="w-full h-full bg-[#0F0F0F] safe-area">
+    <native:column class="w-full gap-0 ">
 
         {{-- Video Player Area --}}
         <native:stack class="w-full h-[220] bg-black">

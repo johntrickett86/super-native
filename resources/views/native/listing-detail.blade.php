@@ -1,11 +1,11 @@
-<native:scroll-view class="w-full h-full bg-white">
+<native:scroll-view class="w-full h-full bg-white ">
     <native:column class="w-full gap-0">
 
         {{-- Hero Image with Navigation --}}
-        <native:stack class="w-full h-[300]">
+        <native:stack class="w-full h-[300] ">
             <native:image
                 src="{{ $currentImageUrl }}"
-                class="w-full h-[300]"
+                class="w-full h-[300] "
                 :fit="2"
             />
             {{-- Top Bar Overlay --}}
