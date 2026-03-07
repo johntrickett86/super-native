@@ -2,14 +2,19 @@
 
 namespace App\NativeComponents;
 
+use App\Jobs\SleepTest;
 use App\NativeComponents\Concerns\HasListingData;
 use Native\Mobile\Edge\Element;
 use Native\Mobile\Edge\NativeComponent;
 use Native\Mobile\Edge\Transition;
+use Native\Mobile\Facades\Device;
+use Native\Mobile\Facades\Dialog;
 
 class Explore extends NativeComponent
 {
     use HasListingData;
+
+    public int $count = 0;
 
     public int $selectedCategory = -1;
 

@@ -36,6 +36,8 @@ class NativeServiceProvider extends ServiceProvider
         return [
             \Nativephp\ComposeUi\ComposeUIServiceProvider::class,
             \Native\Mobile\Providers\DialogServiceProvider::class,
+            \Native\Mobile\Providers\DeviceServiceProvider::class,
+        
         ];
     }
 }

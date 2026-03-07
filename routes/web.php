@@ -3,12 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use Native\Mobile\Edge\BenchmarkComponent;
 
+// Benchmark & Demo
+Route::native('/benchmark', BenchmarkComponent::class)->name('benchmark');
+Route::native('/demo', \App\NativeComponents\Demo::class)->name('demo');
+
 // Explore (Airbnb)
 Route::native('/', \App\NativeComponents\Explore::class)->name('explore');
 Route::native('/listing/{id}', \App\NativeComponents\ListingDetail::class)->name('listing.show');
-
-// Benchmark
-Route::native('/benchmark', BenchmarkComponent::class)->name('benchmark');
 
 // Twitter/X
 Route::native('/twitter', \App\NativeComponents\TwitterFeed::class)->name('twitter.feed');

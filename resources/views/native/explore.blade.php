@@ -3,9 +3,10 @@
 <native:scroll-view class="w-full h-full bg-white">
     <native:column class="w-full gap-0 ">
 
-        {{-- Search Bar --}}
-        <native:column class="w-full px-5 pt-3 pb-2">
-            <native:row class="w-full bg-white rounded-full shadow-lg px-4 py-3 items-center gap-4">
+
+        <native:column class="w-full px-5 pt-6  pb-2">
+
+            <native:row class="w-full bg-white rounded-full shadow px-4 py-3 items-center gap-4">
                 <native:icon name="search" :size="22" color="#222222" />
                 <native:column class="gap-0">
                     <native:text class="text-[14] font-semibold text-[#222222]">Where to?</native:text>
@@ -18,7 +19,6 @@
             </native:row>
         </native:column>
 
-        {{-- Category Icons --}}
         <native:scroll-view horizontal>
             <native:row class="gap-0 px-3 pt-2 pb-2">
                 @foreach ($categories as $catIndex => $cat)
@@ -39,11 +39,11 @@
 
         <native:divider class="w-full" />
 
-        {{-- Listing Cards --}}
+         Listing Cards
         <native:column class="w-full gap-6 px-5 pt-4 pb-4">
             @foreach ($listings as $listing)
                 <native:column class="w-full gap-0">
-                    {{-- Image with Heart --}}
+                     Image with Heart
                     <native:stack class="w-full h-[320] rounded-xl">
                         <native:column @press="viewListing({{ $listing['originalIndex'] }})" class="w-full h-[320]">
                             <native:image
@@ -52,7 +52,7 @@
                                 :fit="2"
                             />
                         </native:column>
-                        {{-- Wishlist Heart --}}
+                         Wishlist Heart
                         <native:row class="w-full p-3 items-start justify-end">
                             <native:column @press="toggleWishlist({{ $listing['originalIndex'] }})" class="w-[32] h-[32] items-center justify-center">
                                 <native:icon
@@ -62,7 +62,7 @@
                                 />
                             </native:column>
                         </native:row>
-                        {{-- Guest Favorite Badge --}}
+                         Guest Favorite Badge
                         @if ($listing['rating'] >= 4.9)
                             <native:column class="w-full h-[320] justify-start items-start p-3">
                                 <native:row class="bg-white rounded-full px-3 py-1 items-center shadow">
@@ -72,7 +72,7 @@
                         @endif
                     </native:stack>
 
-                    {{-- Info Below Image --}}
+                     Info Below Image
                     <native:column @press="viewListing({{ $listing['originalIndex'] }})" class="w-full pt-3 gap-1">
                         <native:row class="w-full items-start justify-between">
                             <native:text class="text-[15] font-semibold text-[#222222] w-[280]" :maxLines="1">{{ $listing['location'] }}</native:text>
@@ -92,7 +92,7 @@
             @endforeach
         </native:column>
 
-        {{-- Bottom Navigation --}}
+         Bottom Navigation
         <native:divider class="w-full" />
         <native:row class="w-full bg-white px-2 pt-2 pb-6 items-center justify-around">
             <native:column class="items-center gap-1 px-3">

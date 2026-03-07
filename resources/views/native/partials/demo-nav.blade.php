@@ -19,6 +19,7 @@
 
     <native:horizontal-divider />
 
-    <native:side-nav-item id="benchmark" icon="speed" url="/benchmark" label="Benchmark" />
+    <native:side-nav-item id="benchmark" icon="speed" :url="route('benchmark')" label="Benchmark" />
+    <native:side-nav-item id="demo" icon="build" :url="route('demo')" label="Demo" />
 
 </native:side-nav>
